@@ -1,0 +1,11 @@
+{
+	"css/teesta.min.css": [
+		"public/css/frappe_theme.css",
+		"public/css/ion-rangeslider/ion.rangeSlider.css",
+		"public/css/ion-rangeslider/ion.rangeSlider.skinFlat.css"
+	],
+	"js/teesta.min.js": [
+		"public/js/ion.rangeSlider.min.js",
+		"public/js/translator.js"
+	]
+}

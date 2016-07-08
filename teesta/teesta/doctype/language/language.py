@@ -5,8 +5,8 @@
 from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
-from teesta.translate import enable_disable_user_translation
-from teesta.translate import get_translation_enable_doctypes, get_translation_enable_fields
+from teesta.translator import enable_disable_user_translation
+from teesta.translator import get_translation_enable_doctypes, get_translation_enable_fields
 
 class Language(Document):
 	"""Language Master, enable or disable language"""

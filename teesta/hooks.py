@@ -19,8 +19,8 @@ app_license = "MIT"
 # app_include_js = "/assets/teesta/js/teesta.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/teesta/css/teesta.css"
-# web_include_js = "/assets/teesta/js/teesta.js"
+web_include_css = "/assets/css/teesta.min.css"
+web_include_js = "/assets/js/teesta.min.js"
 
 # Home Pages
 # ----------

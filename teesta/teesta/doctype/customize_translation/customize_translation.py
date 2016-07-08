@@ -7,8 +7,8 @@ import frappe
 from frappe import _
 from frappe.utils import cint
 from frappe.model.document import Document
-from teesta.translate import make_translation_property, make_user_translation_for_select_field
-from teesta.translate import enable_disable_user_translation
+from teesta.translator import make_translation_property, make_user_translation_for_select_field
+from teesta.translator import enable_disable_user_translation
 
 doctype_properties = {
 	'enable_user_translation': 'Check'
