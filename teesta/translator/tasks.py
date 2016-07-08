@@ -1,8 +1,8 @@
 import frappe
 from frappe.utils import get_datetime
-from .translate import make_user_translation
+from .translator import make_user_translation
 from frappe.defaults import get_global_default, set_global_default
-from .translate import get_translation_enable_doctypes, get_translation_enable_fields
+from .translator import get_translation_enable_doctypes, get_translation_enable_fields
 
 def make_user_translations():
 	""" make user translation for the translation enable doctypes """
